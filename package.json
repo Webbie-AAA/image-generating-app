@@ -1,0 +1,20 @@
+{
+  "name": "practicing-commands",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "jest",
+    "dev" : "watchify ./scripts.js -o bundle.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "jest": "^29.5.0",
+    "jsdom": "^21.1.2",
+    "pixabay-api": "^1.0.4",
+    "watchify": "^4.0.0"
+  }
+}
